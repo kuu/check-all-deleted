@@ -1,0 +1,39 @@
+{
+  "name": "check-all-deleted",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo index.js && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuu/check-all-deleted.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kuu/check-all-deleted/issues"
+  },
+  "homepage": "https://github.com/kuu/check-all-deleted#readme",
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "dependencies": {
+    "config": "^1.26.2",
+    "ooyala-api": "^0.13.0"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "rules": {
+      "camelcase": 0,
+      "capitalized-comments": 0,
+      "new-cap": 0,
+      "no-await-in-loop": 0,
+      "no-return-assign": 0,
+      "import/no-dynamic-require": 0
+    }
+  }
+}
